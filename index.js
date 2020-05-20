@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const ytdl = require('ytdl-core');
 const client = new Discord.Client();
-const token = "NzEyMjg3MTQ3MzE4NTc1MTc0.XsPYGA.oIUeoftr7P8CVK5bff2lgCqsx4g";
+const token = "TOKEN";
 const PREFIX = "!";
 
 client.on('message', async message => {
@@ -49,4 +49,4 @@ client.on('message', (message) => {
         channel.send(`Bem-vindo, ${member}`);
       });
 });
-client.login('NzEyMjg3MTQ3MzE4NTc1MTc0.XsPYGA.oIUeoftr7P8CVK5bff2lgCqsx4g')
+client.login('TOKEN')
